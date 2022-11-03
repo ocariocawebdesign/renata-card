@@ -99,7 +99,9 @@ function Content() {
     src: _images_whatsapp_png__WEBPACK_IMPORTED_MODULE_1__["default"],
     style: {
       marginRight: ""
-    }
+    },
+    width: "32",
+    height: "32"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "animate__animated animate__heartBeat"
   }, "Marca\xE7\xE3o de consulta")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -113,7 +115,9 @@ function Content() {
     src: _images_instagram_png__WEBPACK_IMPORTED_MODULE_2__["default"],
     style: {
       marginRight: ""
-    }
+    },
+    width: "32",
+    height: "32"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: ""
   }, "Instagram")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -127,7 +131,9 @@ function Content() {
     src: _images_site_png__WEBPACK_IMPORTED_MODULE_3__["default"],
     style: {
       marginRight: ""
-    }
+    },
+    width: "32",
+    height: "32"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: ""
   }, "Website")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {

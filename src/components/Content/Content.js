@@ -62,7 +62,7 @@ export default function Content() {
                         color: "#5C5C5C",
                         fontWeight: "600",
                         textAlign: "",
-                        opacity:"0.8"
+                        opacity: "0.8",
                       }}
                     >
                       Psicóloga clinica especialista em saúde mental e
@@ -87,8 +87,12 @@ export default function Content() {
                         className="animate__animated animate__heartBeat"
                         src={Whatsapp}
                         style={{ marginRight: "" }}
+                        width="32"
+                        height="32"
                       />
-                      <span className="animate__animated animate__heartBeat">Marcação de consulta</span>
+                      <span className="animate__animated animate__heartBeat">
+                        Marcação de consulta
+                      </span>
                     </a>
                     <a
                       className="btn btn-services mb-1"
@@ -101,6 +105,8 @@ export default function Content() {
                         className="animate__animated animate__heartBeat"
                         src={Instagram}
                         style={{ marginRight: "" }}
+                        width="32"
+                        height="32"
                       />
                       <span className="">Instagram</span>
                     </a>
@@ -115,6 +121,8 @@ export default function Content() {
                         className="animate__animated animate__heartBeat"
                         src={Site}
                         style={{ marginRight: "" }}
+                        width="32"
+                        height="32"
                       />
                       <span className="">Website</span>
                     </a>

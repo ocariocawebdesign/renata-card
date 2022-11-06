@@ -110,7 +110,7 @@ export default function Content() {
                       />
                       <span className="">Instagram</span>
                     </a>
-                    <a
+                   {/* <a
                       className="btn btn-services mb-1"
                       href="https://ocariocaweb.gatsbyjs.io/"
                       target="_blank"
@@ -140,7 +140,7 @@ export default function Content() {
                       />
 
                       <span className="">Pagamento</span>
-                    </a>
+                    </a>*/}
                   </div>
                 </div>
               </div>

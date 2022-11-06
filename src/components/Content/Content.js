@@ -1,9 +1,10 @@
 import React from "react"
 import Whatsapp from "../../images/whatsapp.png"
 import Instagram from "../../images/instagram.png"
-import Site from "../../images/site.png"
-import Profile from "../../images/profile.png"
-import Pix from "../../images/pix.png"
+//import Site from "../../images/site.png"
+import Perfil from "../../images/perfil.png"
+//import Pix from "../../images/pix.png"
+import Phone from "../../images/phone.png"
 
 //import WhatsAppButton from "../WhatsAppButton"
 
@@ -19,11 +20,7 @@ export default function Content() {
             <div className="box-1 box-content_primary_1  ">
               <div className="img-profile-center">
                 <div id="main-box">
-                  <img
-                    className="img-profile"
-                    src={Profile}
-                    alt="Foto perfil"
-                  />
+                  <img className="img-profile" src={Perfil} alt="Foto perfil" />
                   <div className="container" style={{}}>
                     <h1
                       className="text-center"
@@ -78,7 +75,7 @@ export default function Content() {
                   <div className="social-icons">
                     <a
                       className="btn btn-services mb-1"
-                      href="https://api.whatsapp.com/send?phone=5521967530653&text=Ol%C3%A1!%20Quero%20informa%C3%A7%C3%B5es%20sobre%20Desenvolvimento%20de%20sites..."
+                      href="https://api.whatsapp.com/send?phone=5521991145582&text=Olá quero informações sobre consultas..."
                       target="_blank"
                       title="WhatsApp"
                       alt="WhatsApp"
@@ -96,7 +93,7 @@ export default function Content() {
                     </a>
                     <a
                       className="btn btn-services mb-1"
-                      href="https://www.instagram.com/alcinir_terapeuta/"
+                      href="https://www.instagram.com/renatacarvalhopsicologa/"
                       target="_blank"
                       title="Instagram"
                       alt="Instagram"
@@ -110,7 +107,24 @@ export default function Content() {
                       />
                       <span className="">Instagram</span>
                     </a>
-                   {/* <a
+
+                    <a
+                      className="btn btn-services mb-1"
+                      href="tel:+5521996384616"
+                      target="_blank"
+                      title="Telefone"
+                      alt="Telefone"
+                    >
+                      <img
+                        className="animate__animated animate__heartBeat"
+                        src={Phone}
+                        style={{ opacity: "0.6" }}
+                        width="28"
+                        height="28"
+                      />
+                      <span className="">Ligar</span>
+                    </a>
+                    {/* <a
                       className="btn btn-services mb-1"
                       href="https://ocariocaweb.gatsbyjs.io/"
                       target="_blank"

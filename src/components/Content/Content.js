@@ -110,7 +110,7 @@ export default function Content() {
 
                     <a
                       className="btn btn-services mb-1"
-                      href="tel:+5521996384616"
+                      href="tel:+5521991145582"
                       target="_blank"
                       title="Telefone"
                       alt="Telefone"
@@ -118,7 +118,7 @@ export default function Content() {
                       <img
                         className="animate__animated animate__heartBeat"
                         src={Phone}
-                        style={{ opacity: "0.6" }}
+                        style={{ opacity: "0.5" }}
                         width="28"
                         height="28"
                       />

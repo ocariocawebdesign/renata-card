@@ -130,7 +130,7 @@ function Content() {
     className: "animate__animated animate__heartBeat",
     src: _images_phone_png__WEBPACK_IMPORTED_MODULE_4__["default"],
     style: {
-      opacity: "0.6"
+      opacity: "0.5"
     },
     width: "28",
     height: "28"

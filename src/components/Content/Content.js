@@ -62,8 +62,7 @@ export default function Content() {
                         opacity: "0.8",
                       }}
                     >
-                      Psicóloga clinica especialista em saúde mental e
-                      dependência quimica
+                      Psicóloga clinica
                       <br /> Atendimento psicológico online especializado para
                       imigrantes brasileiros que residem no exterior. <br />
                       Psicologa Perinatal | Psicologa Esportiva
